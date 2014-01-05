@@ -8,7 +8,11 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "License", "License", "{0F2E62AD-1DC5-4F84-BEAE-934406E87B46}"
 	ProjectSection(SolutionItems) = preProject
 		NSub.Cli\gpl-3.0.txt = NSub.Cli\gpl-3.0.txt
-		NSub.Cli\readme.md = NSub.Cli\readme.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{111D98BD-4BEF-4F52-BC06-77DD4E40D42A}"
+	ProjectSection(SolutionItems) = preProject
+		readme.md = readme.md
 	EndProjectSection
 EndProject
 Global

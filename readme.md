@@ -1,7 +1,9 @@
 ﻿NSub
 =========
 
-NSub is an automated subtitles downloader. It hashes the beginning and end of your media file and accesses a third party api to check for a guaranteed matching subtitle.
+NSub is an automated subtitles downloader. It hashes the beginning and end of your media file and accesses [thesubdb api] to check for a guaranteed matching subtitle.
+
+[thesubdb api]: http://thesubdb.com/api/
 
 Configuration
 --------------

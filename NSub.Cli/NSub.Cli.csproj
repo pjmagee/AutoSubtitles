@@ -62,7 +62,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <None Include="readme.md" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="gpl-3.0.txt" />
