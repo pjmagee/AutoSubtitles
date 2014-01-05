@@ -3,11 +3,6 @@
 
 NSub is an automated subtitles downloader. It hashes the beginning and end of your media file and accesses a third party api to check for a guaranteed matching subtitle.
 
-Version
-----
-0.1
-
-
 Configuration
 --------------
 
@@ -19,7 +14,7 @@ You are required to modify a few paths in App.config
   <appSettings>
   
     <!-- this can also be a network location such as \\server\shared\path  -->
-    <add key="Root.Shows.Path" value="\path\to\your\tv shows\" />
+    <add key="Root.Shows.Path" value="\path\to\your\tv shows" />
     <add key="Root.Movies.Path" value="\path\to\your\movies" />
     
     <!-- Subtitle languages to check for -->

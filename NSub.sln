@@ -5,6 +5,12 @@ VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NSub.Cli", "NSub.Cli\NSub.Cli.csproj", "{4156ABDD-0427-4CF7-B28E-01E16885FD01}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "License", "License", "{0F2E62AD-1DC5-4F84-BEAE-934406E87B46}"
+	ProjectSection(SolutionItems) = preProject
+		NSub.Cli\gpl-3.0.txt = NSub.Cli\gpl-3.0.txt
+		NSub.Cli\readme.md = NSub.Cli\readme.md
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
