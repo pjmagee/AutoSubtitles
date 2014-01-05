@@ -53,6 +53,11 @@ namespace NSub
         private const string Action = "download";
 
         /// <summary>
+        /// The user agent
+        /// </summary>
+        private const string UserAgent = @"SubDB/1.0 (NSub/0.1; https://github.com/pjmagee/NSub)";
+
+        /// <summary>
         /// The read size.
         /// <remarks>
         /// The amount to read either side of the file.
@@ -504,7 +509,7 @@ namespace NSub
                 var url = string.Format("http://api.thesubdb.com/?action={0}&hash={1}&language={2}", Action, calculatedHash, Languages);
 
                 HttpWebRequest request = WebRequest.CreateHttp(url);
-                request.UserAgent = "SubDB/1.0 (NSub/0.1; http://github.com/NSub)";
+                request.UserAgent = UserAgent;
 
                 using (var response = (HttpWebResponse)request.GetResponse())
                 {
